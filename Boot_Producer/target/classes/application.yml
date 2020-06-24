@@ -1,0 +1,11 @@
+server:
+  port: 6677
+spring:
+  activemq:
+    broker-url: tcp://202.85.220.43:61615
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: false
+
+myqueue: boot-activemq-queue
